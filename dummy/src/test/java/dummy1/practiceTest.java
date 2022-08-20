@@ -23,8 +23,7 @@ public class practiceTest {
 		 String Url=p.getProperty("url");
 		 String username=p.getProperty("UN");
 		 String password=p.getProperty("PW");
-		 
-		 driver.get(Url);
+		  driver.get(Url);
 		 System.out.println(Url);
 		//String URL = System.getProperty("url");
 		//System.out.println(URL);
