@@ -14,7 +14,8 @@ public class practiceTest {
 	public void demoTest() throws Throwable {
 		 WebDriverManager.chromedriver().setup();
 		  WebDriver driver=new ChromeDriver();
-		  		  
+		
+		  
 		
 	  FileInputStream fis=new FileInputStream("./Data/Vtiger.properties"); 
 		Properties  p=new Properties();
